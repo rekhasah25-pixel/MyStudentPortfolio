@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: grey;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 4px 4px 4px rgb(38, 220, 114);
+}
+
+#navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+#navbar a {
+    color: black;
+    font-weight: 600;
+}
+
+#navbar a:hover {
+    color: rgb(7, 80, 136);
+
+}
+
+#Home {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#Home h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px palevioletred;
+}
+
+#Home img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-left: 904px;
+}
+
+#About {
+    background-color: #1a1a1a;
+    color: white;
+
+    padding: 80px 60px;
+    text-align: center;
+}
+
+#About h3 {
+    font-size: 40px;
+    color: #ff69b4;
+    margin-bottom: 25px;
+}
+
+#About p {
+    max-width: 800px;
+    margin: auto;
+
+    font-size: 22px;
+    line-height: 1.8;
+
+    background-color: #222;
+    padding: 30px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+}
+
+
+#Skills {
+    background-color: #111;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+#Skills h2 {
+    color: #ff69b4;
+    font-size: 40px;
+}
+
+#Skills h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#Skills p {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Grades Section */
+#Grades {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 60px;
+}
+
+#Grades table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#Grades caption {
+    font-size: 30px;
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+#Grades th {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px;
+}
+
+#Grades td {
+    padding: 15px;
+    border: 1px solid #444;
+}
+
+#Grades tr:hover {
+    background-color: #333;
+}
+
+#Contact {
+    background-color: #111;
+    color: white;
+    padding: 60px;
+}
+
+.one {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.one label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.one input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.one button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.one button:hover {
+    background-color: #ff4da6;
+}
+
+
+#footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    
+}
+
+#footer a:hover {
+    color: #ff69b4;
+}
